@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+	background-color:#0d1a2d;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.card{
+	background-color: #15273f;
+	border-radius: 10px;
+	padding: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 300px;
+}
+.card-imageContainer{
+	width: max-content;
+}
+.card-imageContainer__image{
+	border-radius: 10px;
+	height: 300px;
+	width: max-content;
+}
+.card-content__title{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 0;
+}
+.card-content__description{
+	color: #435875;
+	font-size: 1rem;
+	margin-bottom: 0;
+}
+.card-content-value{
+	display: flex;
+	justify-content: space-between;
+	border-bottom:1px solid #435875;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+}
+.card-content-value__price{
+	color: #13afb6;
+	font-weight: bold;
+	font-size: 0.9rem;
+	margin-bottom: 0;
+}
+.card-content-value__day{
+	color: #435875;
+	font-weight: bold;
+	font-size: 0.9rem;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.card-content-value-priceTag{
+	display: flex;
+}
+.card-content-value-date{
+	display: flex;
+}
+.card-content-value__image{
+	width: auto;
+	height:20px;
+	margin-right: 0.5rem;
+}
+.card-content-value__time{
+	width: auto;
+	height: 20px;
+	margin-right: 0.5rem;
+}
+.card-footer__description{
+	color: #435875;
+	font-size: 0.8rem;
+}
+.card-footer__name{
+	color: #FFFFFF;
+	font-size: 0.8rem;
+}
+.card-footer{
+	display: flex;
+	margin-top: 1rem;
+	align-items: center;
+}
+.card-footer__avatar{
+	width: auto;
+	height: 30px;
+	margin-right:0.5rem;
+	background-color:#FFFFFF;
+	padding:0.2rem;
+	border-radius: 50%;
+}
